@@ -1,0 +1,86 @@
+body
+{
+    background: #E8C8EF;  
+    background: -webkit-linear-gradient(to right, #ECECEC, #E18FF3);
+    background: linear-gradient(to right, #ECECEC, #E18FF3); 
+    margin: 0%;
+    padding: 0%;
+    font-family: Fredoka One;
+}
+
+h2
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.calc-box
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 450px;
+    box-sizing: border-box;
+    background-color: rgba(236, 236, 236, 0.2);
+    padding-left: 5%;
+}
+
+.calc-box p
+{
+    color: white;
+    padding-bottom: 5%;
+}
+
+.calc-box output
+{
+    color: white;
+    padding: 0% 0%;
+}
+
+.calc-box input
+{
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+.calc-box input[type = "number"]
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid gray;
+    margin-bottom: 15%;
+    outline: none;
+    font-family: Fredoka One;
+    color: gray;
+}
+
+::placeholder
+{
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.calc-box input[type = "button"]
+{
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    height: 30px;
+    font-family: Fredoka One;
+    color: white;
+    background-color: #E192F3;
+}
+
+.calc-box input[type = "button"]:hover
+{
+    background-color: rgb(227, 165, 241);
+}
+
+.calc-box input[type = "number"]:hover
+{
+    transition: 0.5s;
+    border-bottom: 1.5px solid #E192F3;
+}
+
